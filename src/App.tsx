@@ -4,8 +4,8 @@ import { Form } from "./Form";
 import { AllUsers } from "./AllUsers";
 
 const App: React.FC = () => {
-  const [name, setName] = useState("Suhrob");
-  const [count, setCount] = useState(0);
+  const [name, setName] = useState<string>("Suhrob");
+  const [count, setCount] = useState<number>(0);
   const [data, setData] = useState<{ id: string; name: string }[]>([]);
 
   return (
